@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Training - Shaikh Midrar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Certificate Container */
+        .certificate {
+            background-color: white;
+            width: 900px;
+            height: 630px;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            border: 1px solid #ddd;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        /* Background Decorations */
+        .certificate::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(135deg, #014c8c 0%, #0099db 100%);
+            clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        /* Header Section */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo-jyesta { color: #0099db; font-weight: 800; font-size: 24px; text-transform: uppercase; line-height: 1; }
+        .logo-ecell { text-align: right; color: #333; font-weight: 700; font-size: 22px; }
+        .logo-ecell span { display: block; font-size: 10px; font-weight: 400; letter-spacing: 2px; }
+
+        /* Main Titles */
+        .title-area {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .main-title {
+            font-size: 42px;
+            color: #4a7ab5;
+            letter-spacing: 4px;
+            font-weight: 300;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .sub-title {
+            font-size: 18px;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        /* Recipient Name */
+        .recipient-name {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 10px auto;
+            border-bottom: 2px solid #333;
+            width: 80%;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .domain-intro {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .domain-name {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 10px auto;
+            border-bottom: 2px solid #333;
+            width: 60%;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        /* Dates */
+        .date-section {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .date-box {
+            font-weight: 600;
+            border-bottom: 1px solid #333;
+            padding: 0 10px;
+            display: inline-block;
+            min-width: 120px;
+        }
+
+        .description {
+            font-size: 15px;
+            line-height: 1.5;
+            width: 85%;
+            margin: 20px auto;
+            color: #444;
+        }
+
+        /* Footer Section */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+
+        .footer-left { text-align: left; font-size: 14px; font-weight: 600; }
+
+        .footer-logos {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .qr-placeholder {
+            width: 60px;
+            height: 60px;
+            background: #eee;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8px;
+        }
+
+        .signature {
+            text-align: center;
+            border-top: 1px solid #333;
+            padding-top: 5px;
+            min-width: 180px;
+        }
+
+        .sig-name { font-weight: 700; font-size: 16px; margin: 0; }
+        .sig-title { font-size: 12px; margin: 0; color: #555; }
+
+        .tagline {
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            z-index: 10;
+        }
+
+        .website-link {
+            position: absolute;
+            bottom: 2px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 10px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="certificate">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-jyesta">JYESTA<br><span style="font-size: 8px; color: #777;">CORPORATE ENTITY</span></div>
+            <div class="logo-ecell">E-Cell<span>IIT ROORKEE</span></div>
+        </div>
+
+        <!-- Content -->
+        <div class="title-area">
+            <h1 class="main-title">Certificate of Training</h1>
+            <p class="sub-title">This is to certify that</p>
+            
+            <div class="recipient-name">SHAIKH MIDRAR</div>
+            
+            <p class="domain-intro">Has successfully completed training in the domain of</p>
+            <div class="domain-name">ARTIFICIAL INTELLIGENCE</div>
+
+            <div class="date-section">
+                From <span class="date-box">10-02-2026</span> To <span class="date-box">10-03-2026</span>
+            </div>
+
+            <p class="description">
+                The program combined theoretical learning and practical sessions<br>
+                to provide in-depth knowledge and hands-on skills in the<br>
+                respective field.
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-left">
+                Issued on: 11-03-2026
+            </div>
+
+            <div class="footer-logos">
+                <div style="font-size: 10px; text-align: center;"><b>N-S-D-C</b><br>REIMAGINE FUTURE</div>
+                <div class="qr-placeholder">Scan to verify<br>[QR CODE]</div>
+                <div style="font-size: 10px; border: 1px solid #333; padding: 5px; border-radius: 50%;">ISO 9001</div>
+            </div>
+
+            <div class="signature">
+                <p style="font-family: cursive; margin-bottom: 0;">Mourya N. Manohar</p>
+                <p class="sig-name">Mourya N Manohar</p>
+                <p class="sig-title">Program Director</p>
+            </div>
+        </div>
+
+        <div class="tagline">"Empowering Futures, One Skill at a Time"</div>
+        <div class="website-link">www.jyesta.com</div>
+        
+        <div style="position: absolute; bottom: 85px; left: 50%; transform: translateX(-50%); font-size: 10px; color: #555;">
+            JC-20260311-SRDROAUN
+        </div>
+    </div>
+
+</body>
+</html>
